@@ -196,7 +196,8 @@ weighted avg       0.96      0.96      0.96       200
 
 KNeighbours Confusion Matrix\
 [[ 72   1]\
- [  7 120]]
+ [  7 120]]\
+ 
 KNeighbours Overall f1-score
 0.9575551782682513
 KNeighbours Cross validation score:[0.87826087 0.92173913 0.94690265 0.9380531  0.91150442]
