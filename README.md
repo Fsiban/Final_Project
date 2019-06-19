@@ -123,6 +123,13 @@ The results indicate that the Logistic regression model performs better as it pr
 - I imported the data from sklearn 
 
 
+
+
+
+
+
+
+
 ### Discussion
 Brief (no more than 1-2 paragraph) description about what you did. Include:
 
