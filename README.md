@@ -134,6 +134,9 @@ The results indicate that the Logistic regression model performs better as it pr
 - Logistic Classification Report
 
 LogisticRegression Classification Report
+
+LogisticRegression Accuracy score is 0.98/ 
+
               precision    recall  f1-score   support
 
            0       0.99      0.96      0.97        73
@@ -152,6 +155,27 @@ LogisticRegression Cross validation score:[0.93913043 0.94782609 0.98230088 0.93
 
 LogisticRegression ShuffleSplit val_score:[0.9122807  0.98245614 0.98245614 0.9122807  0.9122807 ]
 
+- K-Neighbours
+KNeighbours Accuracy score is 0.96/ 
+
+KNeighbours Classification Report
+              precision    recall  f1-score   support
+
+           0       0.91      0.99      0.95        73
+           1       0.99      0.94      0.97       127
+
+    accuracy                           0.96       200
+   macro avg       0.95      0.97      0.96       200
+weighted avg       0.96      0.96      0.96       200
+
+KNeighbours Confusion Matrix
+[[ 72   1]
+ [  7 120]]
+KNeighbours Overall f1-score
+0.9575551782682513
+KNeighbours Cross validation score:[0.87826087 0.92173913 0.94690265 0.9380531  0.91150442]
+
+KNeighbours ShuffleSplit val_score:[0.89473684 0.89473684 0.94736842 0.94736842 0.87719298]
 
 
 
