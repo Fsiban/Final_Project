@@ -131,6 +131,28 @@ The results indicate that the Logistic regression model performs better as it pr
 
 ![alternativetext](mean_radius_distribution.png)
 
+- Logistic Classification Report
+
+LogisticRegression Classification Report
+              precision    recall  f1-score   support
+
+           0       0.99      0.96      0.97        73
+           1       0.98      0.99      0.98       127
+
+    accuracy                           0.98       200
+   macro avg       0.98      0.98      0.98       200
+weighted avg       0.98      0.98      0.98       200
+
+LogisticRegression Confusion Matrix
+[[ 70   3]
+ [  1 126]]
+LogisticRegression Overall f1-score
+0.978298611111111
+LogisticRegression Cross validation score:[0.93913043 0.94782609 0.98230088 0.9380531  0.96460177]
+
+LogisticRegression ShuffleSplit val_score:[0.9122807  0.98245614 0.98245614 0.9122807  0.9122807 ]
+
+
 
 
 ### Discussion
