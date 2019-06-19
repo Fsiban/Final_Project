@@ -171,11 +171,9 @@ LogisticRegression Accuracy score is 0.98/
 weighted avg       0.98      0.98      0.98       200
 
 LogisticRegression Confusion Matrix
-[[ 70   3]
+[[ 70   3]\
  [  1 126]]
  
- [[ 70   3]
- [  1 126]]
  
 LogisticRegression Overall f1-score
 0.978298611111111
