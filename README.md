@@ -120,12 +120,16 @@ Brief (2 paragraph) description about your results. Include:
 
 The results indicate that the Logistic regression model performs better as it produced more accurate results compared to the KNeighbours.
 
-- I imported the data from sklearn 
-
+- Imported the data from sklearn 
+- Data visualisation
 
 
  ![alternativetext](pairplot.png)
+ 
+ 
+- Data visualisation using pair plot
 
+![alternativetext](mean_radius_distribution.png)
 
 
 
