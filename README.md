@@ -170,7 +170,7 @@ LogisticRegression Accuracy score is 0.98/
    macro avg       0.98      0.98      0.98       200
 weighted avg       0.98      0.98      0.98       200
 
-LogisticRegression Confusion Matrix
+LogisticRegression Confusion Matrix\
 [[ 70   3]\
  [  1 126]]
  
@@ -194,8 +194,8 @@ KNeighbours Classification Report
    macro avg       0.95      0.97      0.96       200
 weighted avg       0.96      0.96      0.96       200
 
-KNeighbours Confusion Matrix
-[[ 72   1]
+KNeighbours Confusion Matrix\
+[[ 72   1]\
  [  7 120]]
 KNeighbours Overall f1-score
 0.9575551782682513
