@@ -97,18 +97,42 @@ I performed the steps below:
 
 - Imported the dataset from sklearn library
 - Imported other necessarry libraries (Matplotlib,Numpy,Pandas,Seaborn)
-- Exploratory analysis 
-   - Used the describe function to have a look at the description of the dataset
-   - Dropped the features for the standard error and the worst so that that I could use the mean values to generate the pairplot)
+- Loaded breast cancer data set from sklearn
+- Transformed the breast cancer_data into a DataFrame with all the features as columns
+- Brought in 'target' column into breast cancer_df DataFrame from breast cancer data
+- Assigned variables to data and target
 - Train the logistic regression model
    - Split the data into a training and test set
-   - Create and Train the Model
+   - Create and Train the Model (Training Logistic Regression model with fit() )
+   - Predict the Logistic Regression results for test data set
 - Evaluate the Logistic regression model by looking at the generated results after running the model.
-- Train the K-Neigbours
+   - Print the output of the Logistic Regression training
+   - Print the Logistic Regression residuals: difference between real and predicted
+   - Print the Logistic Regression classification report
+   - Print the Logistic Regression classification confusion matrix (diagonal is true)
+   - Print the Logistic Regression classification
+   - Cross validate Logic Regression using shuffle split
+- Train the K-Neigbours (Training KNeighbours Classifier model with fit())
+   - Predict the results for test dataset using KNeighbours
 - Evaluate the K-Neighbours model by looking at the generated results after running the model.
-
+  - Print the residuals: difference between real and KN predicted
+  - Print KN accuracy score(mean accuracy) from 0 - 1
+  - Print the KN classification report
+  - Print the KN classification confusion matrix (diagonal is true)
+  - Cross validate KN using cross_val_score
+  - Cross validate KN using shuffle split
+- Visualisation
+ - Visualise each feature distribution on the two targets/classes
+   - Selection **mean radius**
+ 
 Good step by step:
 https://medium.com/@kbrook10/day-10-machine-learning-using-logisticregression-with-scikit-learn-99316e6589cd
+
+
+- As part of exploratory analysis I perofrmed the following:
+   - Redefined the data set header to only display 10 columns
+   - Used the describe function to have a look at the description of the dataset
+   - Dropped the features for the standard error and the worst so that that I could use the mean values to generate the pairplot)
 
 ### Results
 
