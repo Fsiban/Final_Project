@@ -124,7 +124,7 @@ The results indicate that the Logistic regression model performs better as it pr
 
 
 
- ![alternativetext](DirectoryName/pairplot.png)
+ ![alternativetext](Final_Project/pairplot.png)
 
 
 
