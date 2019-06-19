@@ -1,5 +1,5 @@
 # Final_Project
-# cebd1160_project_Francina
+
 Instructions and template for final projects.
 
 | Name | Date |
