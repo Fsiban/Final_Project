@@ -173,6 +173,10 @@ weighted avg       0.98      0.98      0.98       200
 LogisticRegression Confusion Matrix
 [[ 70   3]
  [  1 126]]
+ 
+ [[ 70   3]
+ [  1 126]]
+ 
 LogisticRegression Overall f1-score
 0.978298611111111
 LogisticRegression Cross validation score:[0.93913043 0.94782609 0.98230088 0.9380531  0.96460177]
