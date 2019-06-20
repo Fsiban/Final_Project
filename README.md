@@ -92,7 +92,7 @@ The results indicate that the Logistic regression model performs better as it pr
 
 The LogisticRegression Classification Report indicats a 98% predection accuracy scoare.
 
-LogisticRegression Accuracy score is 0.98\ 
+LogisticRegression Accuracy score is 0.98 
 
               precision    recall  f1-score   support
 
