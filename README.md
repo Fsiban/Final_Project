@@ -92,7 +92,7 @@ The results indicate that the Logistic regression model performs better as it pr
 
 The LogisticRegression Classification Report indicats a 98% predection accuracy scoare.
 
-LogisticRegression Accuracy score is 0.98/ 
+LogisticRegression Accuracy score is 0.98\ 
 
               precision    recall  f1-score   support
 
@@ -116,7 +116,7 @@ LogisticRegression ShuffleSplit val_score:[0.9122807  0.98245614 0.98245614 0.91
 
 
 - K-Neighbours
-KNeighbours Accuracy score is 0.96/ 
+KNeighbours Accuracy score is 0.96\ 
 
 KNeighbours Classification Report
               precision    recall  f1-score   support
