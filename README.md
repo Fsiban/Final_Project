@@ -69,41 +69,20 @@ I performed the steps below in brief:
 - Brought in 'target' column into breast cancer_df DataFrame from breast cancer data
 - Assigned variables to data and target
 - Train the logistic regression model
-   - Split the data into a training and test set
-   - Create and Train the Model (Training Logistic Regression model with fit() )
-   - Predict the Logistic Regression results for test data set
 - Evaluate the Logistic regression model by looking at the generated results after running the model.
-   - Print the output of the Logistic Regression training
-   - Print the Logistic Regression residuals: difference between real and predicted
-   - Print the Logistic Regression classification report
-   - Print the Logistic Regression classification confusion matrix (diagonal is true)
-   - Print the Logistic Regression classification
-   - Cross validate Logic Regression using shuffle split
 - Train the K-Neigbours (Training KNeighbours Classifier model with fit())
-   - Predict the results for test dataset using KNeighbours
 - Evaluate the K-Neighbours model by looking at the generated results after running the model.
-  - Print the residuals: difference between real and KN predicted
-  - Print KN accuracy score(mean accuracy) from 0 - 1
-  - Print the KN classification report
-  - Print the KN classification confusion matrix (diagonal is true)
-  - Cross validate KN using cross_val_score
-  - Cross validate KN using shuffle split
-- Visualisation
- - Visualise each feature distribution on the two targets/classes
-   - Selection **mean radius**
+- Visualise each feature distribution on the two targets/classes
+   
  
-- As part of exploratory analysis I perofrmed the following:
-   - Redefined the data set header to only display 10 columns
-   - Used the describe function to have a look at the description of the dataset
-   - Dropped the features for the standard error and the worst so that that I could use the mean values to generate the pairplot)
-
-- Data visualisation using pair plot
+- As part of exploratory analysis I generated a pairplot for visualisation:
+  
 
  ![alternativetext](pairplot.png)
 
 ### Results
 
-The results indicate that the Logistic regression model performs better as it produced more accurate results compared to the KNeighbours.  
+The results indicate that the Logistic regression model performs better as it produced more accurate results compared to the KNeighbours model.  
 
  - Through visualisation we can see that the targets can be classified into the two classes.
 
