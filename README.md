@@ -21,7 +21,7 @@ Your repository should include the following:
 ## Research Question
 
 1 sentence description of your research question.
-- Which feature values distinctly indicate a malignant diagnosis. 
+- Based on the features for a given breast mass sample, how do we determine if the sample is malignant or benign. 
 
 
 ### Abstract
@@ -34,21 +34,9 @@ Your repository should include the following:
 - resolution (what did we end up producing)
 
 
-To answer the research question i needed to understand the characteristics of each feature based and how each feature differs in a malignant compared to benign diagnosis. Using the breast cancer dataset form sklearn, used the pairplot to visualise the data and identified positive correlations. By comparing the values of each of the main features with a malignant and Benign diagnosis to understand the feature reading for each diagnosis, I woul be able to determine which feature values distinctly indicate a malignant diagnosis.  
+To better understand to understand the characteristics of each feature and how each feature differs in a malignant compared to benign diagnosis. Using the breast cancer dataset form sklearn. Using logistic regression classification model I can determine if the model can be trained to predict the class and the accuracy level of prediction.
 
-The mean of the ten main features were compared to the Diagnosis are listed below:
-
-Radius
-Texture
-Perimeter
-Area
-Smoothness
-Compactness
-Concavity
-Concave_Points
-Symmetry
-Fractal_Dimension
-
+  
 ### Introduction
 
 Brief (no more than 1-2 paragraph) description about the dataset. Can copy from elsewhere, but cite the source (i.e. at least link, and explicitly say if it's copied from elsewhere).
@@ -81,8 +69,7 @@ WDBC-Malignant
 WDBC-Benign
 
 Sources:
-https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
-https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
+https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r | https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
 
 ### Methods
 
@@ -91,7 +78,7 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
 
-I determined that this is a clasification problen, and i would need to use logistic regression classifier model because the dataset has two categories for the output values, Malignant and Begnin. First to understand the how the attributes of the features relate to each other and their values to the diagnosis predictions, I used decided to perform exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation.I identified that the mean radius has a positive correlation with the area and perimeter. To now understand the relationship betwen the rean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model. Then I developed a logistic regression model to determine the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For comparison, i also used KNeighbors and determined that the logistic regression model was more accurate.
+I determined that this is a clasification problen, and i would need to use logistic regression classifier model because the dataset has two categories for the output values, Malignant and Begnin. First to understand the how the attributes of the features relate to each other and their values to the diagnosis predictions, I performed exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation.I identified that the mean radius has a positive correlation with the area and perimeter. To now understand the relationship betwen the rean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model. Then I developed a logistic regression model to determine the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For comparison, i also used KNeighbors and determined that the logistic regression model was more accurate.
 
 I performed the steps below:
 
@@ -145,13 +132,14 @@ Brief (2 paragraph) description about your results. Include:
 The results indicate that the Logistic regression model performs better as it produced more accurate results compared to the KNeighbours.
 
 - Imported the data from sklearn 
-- Data visualisation
+- Data visualisation using pair plot
 
 
  ![alternativetext](pairplot.png)
  
  
-- Data visualisation using pair plot
+- Visualisation 
+- Through visualisation we can see that the targets can be classified into the two classes. 
 
 ![alternativetext](mean_radius_distribution.png)
 
