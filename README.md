@@ -9,7 +9,7 @@ Instructions and template for final projects.
 -----
 
 ### Resources
-Your repository should include the following:
+The repository includes the following:
 
 - Python script for your analysis: final-project-code.py
 - Results figure/saved file: mean_radius_distribution.png
@@ -20,27 +20,14 @@ Your repository should include the following:
 
 ## Research Question
 
-1 sentence description of your research question.
 - Based on the features for a given breast mass sample, how do we determine if the sample is malignant or benign. 
 
-
 ### Abstract
-
-4 sentence longer explanation about your research question. Include:
-
-- opportunity (what data do we have)
-- challenge (what is the "problem" we could solve with this dataset)
-- action (how will we try to solve this problem/answer this question)
-- resolution (what did we end up producing)
-
 
 To better understand to understand the characteristics of each feature and how each feature differs in a malignant compared to benign diagnosis. Using the breast cancer dataset form sklearn. Using logistic regression classification model I can determine if the model can be trained to predict the class and the accuracy level of prediction.
 
   
 ### Introduction
-
-Brief (no more than 1-2 paragraph) description about the dataset. Can copy from elsewhere, but cite the source (i.e. at least link, and explicitly say if it's copied from elsewhere).
-
 
 The detailed decription of the dataset is from Kaggle and Slearn website. 
 The data set is from the sklearn website, the features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. The sample size is 569 and there are 32 variables. The 32 variables comprise of an ID variable, a diagnosis variable indicating a benign or malignant, and 30 measurement variables detailing the size and shape of the cell nuclei. The diagnosis, a categorical variable, is our response variable and the 30 measurement variables, all of which are continuous, are our potential explanatory variables for our model. The 30 measurement variables are actually only 10 different features of the nucleus, but with 3 different measurements of each; the mean, the standard error and the ‘worst’ or largest (mean of the three largest values). The 10 features included are indicated below:
