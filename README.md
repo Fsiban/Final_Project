@@ -58,14 +58,9 @@ WDBC-Benign
 
 ### Methods
 
-Brief (no more than 1-2 paragraph) description about how you decided to approach solving it. Include:
+I determined that this is a clasification problen, and i would need to use logistic regression classifier model because the dataset has two categories for the output values, Malignant and Begnin. To understand how the attributes of the features relate to each other and their values to the diagnosis predictions, I generated a distribution plot for visulaisation to determine if the two classes can be seperated. The logistic regression model determined the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For model comparison, I also used KNeighbors and determined that the logistic regression model was more accurate.
 
-- pseudocode for this method (either created by you or cited from somewhere else)
-- why you chose this method
-
-I determined that this is a clasification problen, and i would need to use logistic regression classifier model because the dataset has two categories for the output values, Malignant and Begnin. First to understand the how the attributes of the features relate to each other and their values to the diagnosis predictions, I performed exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation.I identified that the mean radius has a positive correlation with the area and perimeter. To now understand the relationship between the mean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model. Then I developed a logistic regression model to determine the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For comparison, i also used KNeighbors and determined that the logistic regression model was more accurate.
-
-I performed the steps below:
+I performed the steps below in brief:
 
 - Imported the dataset from sklearn library
 - Imported other necessarry libraries (Matplotlib,Numpy,Pandas,Seaborn)
