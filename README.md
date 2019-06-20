@@ -52,8 +52,8 @@ Attribute Information:
 - fractal dimension (“coastline approximation” - 1)
 - The mean, standard error, and “worst” or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
 - class:
-WDBC-Malignant
-WDBC-Benign
+  - WDBC-Malignant
+  - WDBC-Benign
 
 
 ### Methods
