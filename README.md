@@ -11,9 +11,9 @@ Instructions and template for final projects.
 ### Resources
 Your repository should include the following:
 
-- Python script for your analysis
-- Results figure/saved file
-- Dockerfile for your experiment
+- Python script for your analysis final-project-code.py
+- Results figure/saved file mean_radius_distribution.png
+- Dockerfile for your experiment Dockerfile
 - runtime-instructions in a file named RUNME.md
 
 -----
