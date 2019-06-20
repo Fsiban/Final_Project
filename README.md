@@ -20,11 +20,11 @@ The repository includes the following:
 
 ## Research Question
 
-- Based on the features for a given breast mass sample, how do we determine if the sample is malignant or benign. 
+- Based on the features for a given breast mass sample, can we train a model to predict if the sample is malignant or benign. 
 
 ### Abstract
 
-To better understand to understand the characteristics of each feature and how each feature differs in a malignant compared to benign diagnosis. Using the breast cancer dataset form sklearn. Using logistic regression classification model I can determine if the model can be trained to predict the class and the accuracy level of prediction.
+To better understand the correlation of each feature and how each feature differs in a malignant compared to benign diagnosis. Using the breast cancer dataset from sklearn and a logistic regression classification model we can determine if the model can be trained to predict the class and the accuracy level of prediction. The logistic regression model was successful with 98% accuracy.
 
   
 ### Introduction
@@ -141,8 +141,8 @@ KNeighbours ShuffleSplit val_score:[0.89473684 0.89473684 0.94736842 0.94736842 
 
 ### Discussion
 
-The Logistic regression method resolved the problem, I was able to train the model to categorise the samples betwen the two classes. 
-One of the things we can do to improve the accuracy of the model would be to scale the data for standardisation.
+The Logistic regression model resolved the problem with better accuracy than KNeighbours model, I was able to train the model to categorise the samples betwen the two classes with 98% accuracy. 
+To improve the accuracy of the Logistic regression model, we could scale the data for standardisation.
 
 
 ### References
