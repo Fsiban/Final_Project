@@ -192,6 +192,7 @@ Brief (no more than 1-2 paragraph) description about what you did. Include:
 - suggested next step that could make it better.
 
 The Logistic regression method resolved the problem, I was able to train the model to categorise the samples betwen the two classes. 
+One of the things we can do to improve the accuracy of the model would be to scale the model.
 
 Make it iteration eg using the average
 KNeighbours Cross validation score:[0.87826087 0.92173913 0.94690265 0.9380531  0.91150442]
