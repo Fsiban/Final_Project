@@ -108,12 +108,6 @@ I performed the steps below:
 
 ### Results
 
-Brief (2 paragraph) description about your results. Include:
-
-- At least 1 figure
-- At least 1 "value" that summarizes either your data or the "performance" of your method (classification - show the F1 score)
-- A short explanation of both of the above  9if you solved the project or not and what you could have done to makeit better)
-
 The results indicate that the Logistic regression model performs better as it produced more accurate results compared to the KNeighbours.  
 
  - Through visualisation we can see that the targets can be classified into the two classes.
@@ -171,28 +165,13 @@ KNeighbours Cross validation score:[0.87826087 0.92173913 0.94690265 0.9380531  
 KNeighbours ShuffleSplit val_score:[0.89473684 0.89473684 0.94736842 0.94736842 0.87719298]
 
 
-
 ### Discussion
-Brief (no more than 1-2 paragraph) description about what you did. Include:
-
-- interpretation of whether your method "solved" the problem
-- suggested next step that could make it better.
 
 The Logistic regression method resolved the problem, I was able to train the model to categorise the samples betwen the two classes. 
-One of the things we can do to improve the accuracy of the model would be to scale the model.
-
-Make it iteration eg using the average
-KNeighbours Cross validation score:[0.87826087 0.92173913 0.94690265 0.9380531  0.91150442]
-
-KNeighbours ShuffleSplit val_score:[0.94736842 0.94736842 0.87719298 0.94736842 0.92982456]
-
-
-you can remove the ones with the lowest coefifient to keep the ones that have higher one to remove the noise..
+One of the things we can do to improve the accuracy of the model would be to scale the data for standardisation.
 
 
 ### References
-All of the links
-
 - Sources
 https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r | https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
 
