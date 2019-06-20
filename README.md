@@ -128,9 +128,9 @@ KNeighbours Classification Report
    macro avg       0.95      0.97      0.96       200
 weighted avg       0.96      0.96      0.96       200
 
-KNeighbours Confusion Matrix
+KNeighbours Confusion Matrix\
 [[ 72   1]\
- [  7 120]]\
+ [  7 120]]
  
 KNeighbours Overall f1-score
 0.9575551782682513
