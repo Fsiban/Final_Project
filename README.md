@@ -68,8 +68,6 @@ Attribute Information:
 WDBC-Malignant
 WDBC-Benign
 
-Sources:
-https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r | https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
 
 ### Methods
 
@@ -78,7 +76,7 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
 
-I determined that this is a clasification problen, and i would need to use logistic regression classifier model because the dataset has two categories for the output values, Malignant and Begnin. First to understand the how the attributes of the features relate to each other and their values to the diagnosis predictions, I performed exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation.I identified that the mean radius has a positive correlation with the area and perimeter. To now understand the relationship betwen the rean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model. Then I developed a logistic regression model to determine the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For comparison, i also used KNeighbors and determined that the logistic regression model was more accurate.
+I determined that this is a clasification problen, and i would need to use logistic regression classifier model because the dataset has two categories for the output values, Malignant and Begnin. First to understand the how the attributes of the features relate to each other and their values to the diagnosis predictions, I performed exploratory analysis first by visualising the data using a pairplot. I selected the 10 mean attributes first to identify the correlation.I identified that the mean radius has a positive correlation with the area and perimeter. To now understand the relationship between the mean radius in a benign and malignant diagnosis reading, I generated a distribution plot to understand if these the two classes can be seperated so that I can develop a machine learning model. Then I developed a logistic regression model to determine the class to evaluate if the diagnosis can be predicted with accuracy. I identified the target variable as the class. For comparison, i also used KNeighbors and determined that the logistic regression model was more accurate.
 
 I performed the steps below:
 
@@ -112,14 +110,14 @@ I performed the steps below:
  - Visualise each feature distribution on the two targets/classes
    - Selection **mean radius**
  
-Good step by step:
-https://medium.com/@kbrook10/day-10-machine-learning-using-logisticregression-with-scikit-learn-99316e6589cd
-
-
 - As part of exploratory analysis I perofrmed the following:
    - Redefined the data set header to only display 10 columns
    - Used the describe function to have a look at the description of the dataset
    - Dropped the features for the standard error and the worst so that that I could use the mean values to generate the pairplot)
+
+- Data visualisation using pair plot
+
+ ![alternativetext](pairplot.png)
 
 ### Results
 
@@ -129,23 +127,15 @@ Brief (2 paragraph) description about your results. Include:
 - At least 1 "value" that summarizes either your data or the "performance" of your method (classification - show the F1 score)
 - A short explanation of both of the above  9if you solved the project or not and what you could have done to makeit better)
 
-The results indicate that the Logistic regression model performs better as it produced more accurate results compared to the KNeighbours.
+The results indicate that the Logistic regression model performs better as it produced more accurate results compared to the KNeighbours.  
 
-- Imported the data from sklearn 
-- Data visualisation using pair plot
-
-
- ![alternativetext](pairplot.png)
- 
- 
-- Visualisation 
-- Through visualisation we can see that the targets can be classified into the two classes. 
+ - Through visualisation we can see that the targets can be classified into the two classes.
 
 ![alternativetext](mean_radius_distribution.png)
 
 - Logistic Classification Report
 
-LogisticRegression Classification Report
+The LogisticRegression Classification Report indicats a 98% predection accuracy scoare.
 
 LogisticRegression Accuracy score is 0.98/ 
 
@@ -168,6 +158,7 @@ LogisticRegression Overall f1-score
 LogisticRegression Cross validation score:[0.93913043 0.94782609 0.98230088 0.9380531  0.96460177]
 
 LogisticRegression ShuffleSplit val_score:[0.9122807  0.98245614 0.98245614 0.9122807  0.9122807 ]
+
 
 - K-Neighbours
 KNeighbours Accuracy score is 0.96/ 
@@ -199,6 +190,9 @@ Brief (no more than 1-2 paragraph) description about what you did. Include:
 
 - interpretation of whether your method "solved" the problem
 - suggested next step that could make it better.
+
+The Logistic regression method resolved the problem, I was able to train the model to categorise the samples betwen the two classes. 
+
 Make it iteration eg using the average
 KNeighbours Cross validation score:[0.87826087 0.92173913 0.94690265 0.9380531  0.91150442]
 
@@ -211,8 +205,8 @@ you can remove the ones with the lowest coefifient to keep the ones that have hi
 ### References
 All of the links
 
-- Source1:https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
-- Source2:https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
+- Sources
+https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r | https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset
 
 
 -------
