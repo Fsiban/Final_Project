@@ -116,7 +116,7 @@ LogisticRegression ShuffleSplit val_score:[0.9122807  0.98245614 0.98245614 0.91
 
 
 - K-Neighbours
-KNeighbours Accuracy score is 0.96\ 
+KNeighbours Accuracy score is 0.96
 
 KNeighbours Classification Report
               precision    recall  f1-score   support
@@ -128,7 +128,7 @@ KNeighbours Classification Report
    macro avg       0.95      0.97      0.96       200
 weighted avg       0.96      0.96      0.96       200
 
-KNeighbours Confusion Matrix\
+KNeighbours Confusion Matrix
 [[ 72   1]\
  [  7 120]]\
  
